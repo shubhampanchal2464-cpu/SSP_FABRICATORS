@@ -45,24 +45,24 @@ const Header = () => {
               </a>
             </div>
 
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
-              <a href="/" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
-                Home
-              </a>
-              <a href="/about" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
-                About Us
-              </a>
-              <a href="/services" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
-                Services
-              </a>
-              <a href="/contact" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
-                Contact
-              </a>
-            </nav>
-
-            {/* CTA Button */}
-            <div className="hidden lg:flex items-center">
+            {/* Desktop Navigation and CTA Button - Moved to Right */}
+            <div className="hidden lg:flex items-center space-x-8">
+              <nav className="flex items-center space-x-8">
+                <a href="/" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
+                  Home
+                </a>
+                <a href="/about" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
+                  About Us
+                </a>
+                <a href="/services" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
+                  Services
+                </a>
+                <a href="/contact" className="text-gray-700 hover:text-[#285075] transition-colors font-medium hover:scale-105 transform duration-200">
+                  Contact
+                </a>
+              </nav>
+              
+              {/* CTA Button */}
               <Button 
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 pulse-glow hover:scale-105 transform transition-all duration-200"
                 onClick={() => window.location.href = '/contact'}
