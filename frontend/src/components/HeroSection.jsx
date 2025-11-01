@@ -152,13 +152,14 @@ const HeroSection = () => {
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight min-h-[200px]">
                 <span className="typing-text">
-                  {displayedTitle}
+                  "{displayedTitle}
                   {isTyping && !titleComplete && <span className="typing-cursor animate-pulse">|</span>}
                 </span>
                 <span className="text-[#285075] block">
                   {displayedSubtitle}
                   {isTyping && titleComplete && displayedSubtitle.length < currentHero.subtitle.length && <span className="typing-cursor animate-pulse">|</span>}
                   {isDeleting && displayedSubtitle.length > 0 && <span className="typing-cursor animate-pulse">|</span>}
+                  {displayedSubtitle.length === currentHero.subtitle.length && !isDeleting && '"'}
                 </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed animate-fade-in animation-delay-600">
