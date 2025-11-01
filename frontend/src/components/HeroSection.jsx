@@ -162,8 +162,7 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed animate-fade-in animation-delay-600">
-                <strong className="text-orange-500">YOU THINK, WE MAKE</strong><br/>
-                {currentHero.description}
+                <strong className="text-gray-900">From concept to creation — SSP Fabricators delivers precision-engineered structures built for strength, safety, and performance.</strong>
               </p>
             </div>
 
