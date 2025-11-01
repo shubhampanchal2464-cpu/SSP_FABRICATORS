@@ -167,22 +167,18 @@ const HeroSection = () => {
             </div>
 
             {/* Key Points */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-fade-in-up animation-delay-800">
+            <div className="grid grid-cols-1 gap-4 animate-fade-in-up animation-delay-800">
               <div className="flex items-center gap-3 hover:transform hover:scale-105 transition-transform duration-200">
-                <CheckCircle className="text-green-500 flex-shrink-0 animate-bounce" size={20} />
-                <span className="text-gray-700">Skilled & Experienced Workforce</span>
+                <CheckCircle className="text-green-500 flex-shrink-0" size={24} />
+                <span className="text-gray-800 font-medium text-lg">Skilled & Certified Fabricators</span>
               </div>
               <div className="flex items-center gap-3 hover:transform hover:scale-105 transition-transform duration-200">
-                <CheckCircle className="text-green-500 flex-shrink-0 animate-bounce animation-delay-100" size={20} />
-                <span className="text-gray-700">Quality Workmanship</span>
+                <CheckCircle className="text-green-500 flex-shrink-0" size={24} />
+                <span className="text-gray-800 font-medium text-lg">On-Time Project Execution</span>
               </div>
               <div className="flex items-center gap-3 hover:transform hover:scale-105 transition-transform duration-200">
-                <CheckCircle className="text-green-500 flex-shrink-0 animate-bounce animation-delay-200" size={20} />
-                <span className="text-gray-700">Safety-Oriented Approach</span>
-              </div>
-              <div className="flex items-center gap-3 hover:transform hover:scale-105 transition-transform duration-200">
-                <CheckCircle className="text-green-500 flex-shrink-0 animate-bounce animation-delay-300" size={20} />
-                <span className="text-gray-700">Timely Execution</span>
+                <CheckCircle className="text-green-500 flex-shrink-0" size={24} />
+                <span className="text-gray-800 font-medium text-lg">End-to-End Industrial Solutions</span>
               </div>
             </div>
 
